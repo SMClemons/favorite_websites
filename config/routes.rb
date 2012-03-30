@@ -1,4 +1,6 @@
 FavoriteWebsites::Application.routes.draw do
+  get "bookmarks/home"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
